@@ -10,7 +10,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.8.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath />
 	</parent>
 	<groupId>com.echo</groupId>
 	<artifactId>petclinic</artifactId>
@@ -33,9 +33,6 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<configuration>
 					<goals>install</goals>
-					<checkModificationExcludes>
-						<checkModificationExclude>pom.xml</checkModificationExclude>
-					</checkModificationExcludes>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -43,7 +40,7 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/echosimanjuntak/petclinic.git</developerConnection>
-	  <tag>petclinic-0.0.1</tag>
-  </scm>
+	  	<tag>petclinic-0.0.1</tag>
+  	</scm>
 
 </project>
