@@ -39,6 +39,8 @@
 		</plugins>
 	</build>
 
-
+	<scm>
+		<developerConnection>scm:git:git@github.com:echosimanjuntak/petclinic.git</developerConnection>
+	</scm>
 
 </project>
