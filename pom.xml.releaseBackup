@@ -40,6 +40,6 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/echosimanjuntak/petclinic.git</developerConnection>
-  </scm>
+  	</scm>
 
 </project>
